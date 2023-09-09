@@ -1,6 +1,6 @@
 # ResourceWorlds Plugin
 
-![Plugin Logo](plugin-logo.png) <!-- Replace with your plugin's logo or image -->
+![Plugin Logo](resourceWorlds.png) <!-- Replace with your plugin's logo or image -->
 
 ## Description
 
@@ -16,7 +16,7 @@ The ResourceWorlds plugin is designed to create and manage resource worlds in yo
 
 ## Installation
 
-1. Download the plugin JAR file from [GitHub Releases](https://github.com/your-plugin-repo/releases) or your preferred source.
+1. Download the plugin JAR file from Modrinth.
 
 2. Place the downloaded JAR file into the `plugins` directory of your Minecraft server.
 
