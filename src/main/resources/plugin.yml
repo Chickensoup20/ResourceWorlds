@@ -2,3 +2,32 @@ name: ResourceWorlds
 version: '${project.version}'
 main: resourceworlds.resourceworlds.ResourceWorlds
 api-version: 1.20
+
+commands:
+  createresourceworld:
+    description: Create a resource world
+    usage: /createresourceworld <worldname>
+    permission: resourceworld.create
+
+  rctp:
+    description: Go to a resource world
+    usage: /rctp <world>
+    permission: resourceworld.goto
+
+  listworlds:
+    description: List available worlds
+    usage: /listworlds
+    permission: resourceworld.list
+
+permissions:
+  resourceworld.create:
+    description: Allows players to create resource worlds
+    default: op
+
+  resourceworld.goto:
+    description: Allows players to teleport to resource worlds
+    default: true
+
+  resourceworld.list:
+    description: Allows players to list available worlds
+    default: true
