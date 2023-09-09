@@ -1,0 +1,4 @@
+name: ResourceWorlds
+version: '${project.version}'
+main: resourceworlds.resourceworlds.ResourceWorlds
+api-version: 1.20
